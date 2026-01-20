@@ -10,9 +10,9 @@ const Projects = ({ data }) => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            Featured <span className="text-amber-500">Projects</span>
+            Featured <span className="text-theme-500">Projects</span>
           </h2>
-          <div className="h-1 w-24 bg-amber-500 mx-auto rounded-full"></div>
+          <div className="h-1 w-24 bg-theme-500 mx-auto rounded-full"></div>
           <p className="text-gray-400 mt-4 max-w-2xl mx-auto">
             Large-scale systems I've contributed to at Arcadis IBI Group
           </p>
@@ -23,18 +23,18 @@ const Projects = ({ data }) => {
           {data.map((project, index) => (
             <Card 
               key={index}
-              className="bg-[#1a1a1a] border-amber-500/20 p-6 hover:border-amber-500 transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-amber-500/20 group cursor-pointer"
+              className="bg-[#1a1a1a] border-theme-500/20 p-6 hover:border-theme-500 transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-theme-500/20 group cursor-pointer"
             >
               {/* Icon */}
               <div className="mb-4 relative">
-                <div className="w-14 h-14 bg-amber-500/10 rounded-lg flex items-center justify-center group-hover:bg-amber-500/20 transition-colors">
-                  <Folder className="w-8 h-8 text-amber-500" />
+                <div className="w-14 h-14 bg-theme-500/10 rounded-lg flex items-center justify-center group-hover:bg-theme-500/20 transition-colors">
+                  <Folder className="w-8 h-8 text-theme-500" />
                 </div>
-                <ExternalLink className="w-5 h-5 text-amber-500 absolute top-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity" />
+                <ExternalLink className="w-5 h-5 text-theme-500 absolute top-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity" />
               </div>
 
               {/* Project Name */}
-              <h3 className="text-xl font-bold text-white mb-3 group-hover:text-amber-500 transition-colors">
+              <h3 className="text-xl font-bold text-white mb-3 group-hover:text-theme-500 transition-colors">
                 {project.name}
               </h3>
 
@@ -47,18 +47,18 @@ const Projects = ({ data }) => {
               <div className="space-y-2 mb-4">
                 {project.highlights.map((highlight, idx) => (
                   <div key={idx} className="flex items-start gap-2">
-                    <CheckCircle2 className="w-4 h-4 text-amber-500 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-4 h-4 text-theme-500 flex-shrink-0 mt-0.5" />
                     <p className="text-gray-300 text-sm">{highlight}</p>
                   </div>
                 ))}
               </div>
 
               {/* Tech Stack */}
-              <div className="flex flex-wrap gap-2 mt-4 pt-4 border-t border-amber-500/20">
+              <div className="flex flex-wrap gap-2 mt-4 pt-4 border-t border-theme-500/20">
                 {project.techStack.map((tech, idx) => (
                   <Badge 
                     key={idx}
-                    className="bg-amber-500/10 text-amber-500 border border-amber-500/30 hover:bg-amber-500 hover:text-black transition-all duration-300 text-xs"
+                    className="bg-theme-500/10 text-theme-500 border border-theme-500/30 hover:bg-theme-500 hover:text-white transition-all duration-300 text-xs"
                   >
                     {tech}
                   </Badge>
