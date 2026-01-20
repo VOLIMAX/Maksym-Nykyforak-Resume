@@ -13,17 +13,17 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #a855f7;
+    background: #7e22ce;
     border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #9333ea;
+    background: #6b21a8;
 }
 
 /* Selection color */
 ::selection {
-    background-color: #a855f7;
+    background-color: #7e22ce;
     color: #ffffff;
 }
 
