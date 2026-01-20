@@ -69,7 +69,7 @@ const Hero = ({ data }) => {
                 <img 
                   src={data.photo}
                   alt={data.fullName}
-                  className="relative w-72 h-72 md:w-96 md:h-96 object-contain rounded-2xl shadow-2xl ring-2 ring-theme-500/50 transition-transform duration-500 group-hover:scale-105 bg-[#0a0a0a]"
+                  className="relative max-w-xs md:max-w-md h-auto object-contain rounded-2xl shadow-2xl ring-2 ring-theme-500/50 transition-transform duration-500 group-hover:scale-105"
                 />
               </div>
             </div>
