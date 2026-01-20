@@ -69,18 +69,11 @@ const Hero = ({ data }) => {
                 <img 
                   src={data.photo}
                   alt={data.fullName}
-                  className="relative w-72 h-72 md:w-96 md:h-96 object-cover object-top rounded-2xl shadow-2xl ring-2 ring-theme-500/50 transition-transform duration-500 group-hover:scale-105"
+                  className="relative w-72 h-72 md:w-96 md:h-96 object-contain rounded-2xl shadow-2xl ring-2 ring-theme-500/50 transition-transform duration-500 group-hover:scale-105 bg-[#0a0a0a]"
                 />
               </div>
             </div>
           </div>
-        </div>
-      </div>
-
-      {/* Scroll indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-        <div className="w-6 h-10 border-2 border-theme-500 rounded-full p-1">
-          <div className="w-1 h-3 bg-theme-500 rounded-full mx-auto animate-pulse"></div>
         </div>
       </div>
     </section>
