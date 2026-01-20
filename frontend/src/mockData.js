@@ -7,7 +7,7 @@ export const portfolioData = {
     email: "nykyforak.maks@gmail.com",
     linkedin: "https://www.linkedin.com/in/maksym-nykyforak-3b4006236",
     github: "",
-    photo: "https://customer-assets.emergentagent.com/job_9b09406e-daf6-4918-a013-dd703ed7f4b6/artifacts/2a85ejzb_Amber%20headshot.PNG"
+    photo: "https://customer-assets.emergentagent.com/job_maksym-dev/artifacts/dv2zomfj_Purple%20headshot.JPG"
   },
 
   about: {
