@@ -8,7 +8,7 @@ import Skills from "./components/Skills";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Education from "./components/Education";
-import Certifications from "./components/Certifications";
+// import Certifications from "./components/Certifications";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
@@ -22,7 +22,7 @@ function App() {
       <Experience data={portfolioData.experience} />
       <Projects data={portfolioData.projects} />
       <Education data={portfolioData.education} />
-      <Certifications data={portfolioData.certifications} />
+      {/* <Certifications data={portfolioData.certifications} /> */}
       <Contact data={portfolioData.personal} />
       <Footer />
     </div>
