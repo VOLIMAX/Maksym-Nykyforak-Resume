@@ -25,11 +25,11 @@ export const portfolioData = {
     categories: [
       {
         name: "Backend",
-        items: [".NET Core", "ASP.NET", "Entity Framework", "REST APIs", "gRPC"]
+        items: [".NET Core", "ASP.NET", "Entity Framework", "REST APIs", "gRPC", "SignalR", "OWASP 10", "Azure Service Bus"]
       },
       {
         name: "Frontend",
-        items: ["React", "Angular", "AngularJS", "HTML", "CSS", "Tailwind CSS", "Bootstrap"]
+        items: ["React", "Angular", "AngularJS", "HTML", "CSS", "Tailwind CSS", "Bootstrap", "NgRx"]
       },
       {
         name: "Languages",
@@ -37,19 +37,19 @@ export const portfolioData = {
       },
       {
         name: "Databases",
-        items: ["SQL Server", "PostgreSQL", "Stored Procedures"]
+        items: ["SQL Server", "PostgreSQL", "Stored Procedures", "Dapper"]
       },
       {
         name: "DevOps & Tools",
-        items: ["Azure DevOps", "Git", "GitHub", "CI/CD", "YAML", "WebPack"]
+        items: ["Azure DevOps", "Git", "GitHub", "CI/CD", "YAML", "WebPack", "Vite"]
       },
       {
         name: "Testing",
-        items: ["SpecFlow", "Unit Testing", "Test-Driven Development"]
+        items: ["SpecFlow", "Unit Testing", "Test-Driven Development", "NUnit", "Moq", "NSubstitute", "AutoFixture", "FluentAssertions"]
       },
       {
         name: "Principles",
-        items: ["OOP", "SOLID", "Agile (Scrum, Kanban)"]
+        items: ["OOP", "SOLID", "Agile (Scrum, Kanban)", "Domain-Driven Design (DDD)", "Clean Architecture", "CQRS"]
       }
     ]
   },
