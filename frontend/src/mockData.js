@@ -106,7 +106,8 @@ export const portfolioData = {
         "Integrated real-time device data with third-party APIs",
         "Built responsive UI components for traffic visualization"
       ],
-      techStack: ["React", ".NET Core", "Google Maps API", "Microservices"]
+      techStack: ["Angular", ".NET Core", "SQL Server", "Google Maps API", "Microservices"],
+      link: null
     },
     {
       name: "Work Zones Manager",
@@ -116,7 +117,8 @@ export const portfolioData = {
         "Implemented device-event association automation",
         "Created modular backend components following SOLID principles"
       ],
-      techStack: [".NET Core", "Azure", "SQL Server"]
+      techStack: ["React", ".NET Core", "PostgreSQL"],
+      link: null
     },
     {
       name: "Smart Express Lanes System",
@@ -126,7 +128,20 @@ export const portfolioData = {
         "Enhanced system maintainability and performance",
         "Supported complex distributed architecture"
       ],
-      techStack: [".NET Core", "Microservices", "Angular"]
+      techStack: [".NET Core", "Microservices", "Angular"],
+      link: null
+    },
+    {
+      name: "OncoHealth",
+      description: "Healthcare platform providing oncology management solutions and patient care coordination.",
+      highlights: [
+        "Contributed to CI/CD pipelines and participated in code reviews",
+        "Designed modular backend components using .NET Core and SOLID principles",
+        "Built and maintained API test suites using SpecFlow",
+        "Collaborated with stakeholders to define system requirements"
+      ],
+      techStack: ["C#", ".NET Core", "SQL Server", "SpecFlow", "Azure DevOps"],
+      link: "https://oncohealth.us/solutions/?utm_source=google+ads&utm_medium=search&utm_campaign=solutions&gad_source=1&gad_campaignid=23543273274&gbraid=0AAAAAoJSQ4oygSKJq4HL6WbPp2tRr1lTw&gclid=CjwKCAiA-sXMBhAOEiwAGGw6LE17-GB4R2ZqFOxqYMIjsWukCX5ST2tEjDF_Z4fHRn66PlaTo1RxBxoCW_oQAvD_BwE"
     }
   ],
 
