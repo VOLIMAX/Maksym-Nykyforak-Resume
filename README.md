@@ -93,75 +93,13 @@ The application will run on `http://localhost:3000` with Hot Module Replacement 
 ```bash
 yarn build
 ```
-Build output will be in the `dist/` directory
+Build output will be in the `build/` directory
 
 #### Preview Production Build
 
 ```bash
 yarn preview
 ```
-
-## 🎨 Customization
-
-### Updating Portfolio Content
-
-Edit `/src/mockData.js` to customize:
-
-- Personal information (name, title, location, contact)
-- About section and focus areas
-- Technical skills (categorized by Backend, Frontend, Databases, DevOps, Testing, Principles)
-- Work experience and achievements
-- Featured projects with links
-- Education details
-
-### Changing Theme Colors
-
-The entire color scheme is centralized in `tailwind.config.js`:
-
-```javascript
-theme: {
-  '500': '#7e22ce',  // Main theme color (darker purple)
-  '600': '#6b21a8',  // Darker shade for hover states
-  '700': '#581c87',  // Even darker
-  // ... other shades
-}
-```
-
-Change the `theme` color values to customize the accent color throughout the site. All colors are referenced as `theme-*` classes.
-
-### Updating Photo
-
-Replace the photo URL in `/src/mockData.js`:
-
-```javascript
-personal: {
-  photo: "your-photo-url-here"
-}
-```
-
-Recommended dimensions: 
-- Desktop: 345x580px
-- Mobile: 280x471px
-
-The photo uses `object-cover` and is fully responsive.
-
-### Adding/Removing Projects
-
-Projects are defined in `/src/mockData.js`:
-
-```javascript
-projects: [
-  {
-    name: "Project Name",
-    description: "Brief description",
-    highlights: ["Achievement 1", "Achievement 2"],
-    techStack: ["React", ".NET Core"],
-    link: "https://project-url.com" // or null for internal projects
-  }
-]
-```
-
-Only projects with a `link` property will show the external link icon on hover.
 
 ## 📱 Responsive Design
 
@@ -171,9 +109,9 @@ The portfolio is fully responsive with breakpoints:
 - **Desktop**: 1025px+ (lg, xl)
 
 Responsive features:
-- Adaptive typography (text scales: `text-4xl sm:text-5xl md:text-6xl lg:text-7xl`)
+- Adaptive typography (text scales based on screen size)
 - Mobile-friendly navigation with hamburger menu
-- Responsive photo sizing: `w-[280px] sm:w-[345px]`
+- Responsive photo sizing
 - 4-column project grid that adapts to screen size
 - Stacked layouts on smaller screens
 
@@ -188,7 +126,7 @@ Responsive features:
 
 #### Netlify
 1. Build command: `yarn build`
-2. Publish directory: `dist`
+2. Publish directory: `build`
 3. Deploy
 
 #### GitHub Pages
@@ -197,7 +135,7 @@ Responsive features:
 yarn build
 
 # Deploy to gh-pages branch
-npx gh-pages -d dist
+npx gh-pages -d build
 ```
 
 #### Other Options
@@ -240,12 +178,12 @@ The Vite build is already optimized with:
 - 7 categorized skill groups:
   - Backend (SignalR, OWASP 10, Azure Service Bus)
   - Frontend (NgRx)
-  - Languages
-  - Databases (Dapper)
-  - DevOps & Tools (Vite)
+  - Languages (C#, JavaScript, TypeScript, SQL)
+  - Databases (Dapper, SQL Server, PostgreSQL)
+  - DevOps & Tools (Vite, Git, Azure DevOps)
   - Testing (NUnit, Moq, NSubstitute, AutoFixture, FluentAssertions)
   - Principles (DDD, Clean Architecture, CQRS)
-- Badge-style skill items
+- Badge-style skill items with bright purple text
 - Hover effects on cards and individual badges
 
 ### Contact Section
@@ -275,12 +213,7 @@ html {
 ```
 
 ### Custom Scrollbar
-Themed scrollbar matching the purple color scheme:
-```css
-::-webkit-scrollbar-thumb {
-  background: #7e22ce;
-}
-```
+Themed scrollbar matching the purple color scheme
 
 ### Animations
 - Pulse animations on background gradient orbs
@@ -331,7 +264,7 @@ lsof -ti:3000 | xargs kill -9
 ### Build Errors
 ```bash
 # Clear cache and reinstall
-rm -rf node_modules yarn.lock dist
+rm -rf node_modules yarn.lock build
 yarn install
 ```
 
@@ -345,6 +278,9 @@ yarn install
 2. Check `postcss.config.js` exists
 3. Ensure `@tailwind` directives are in `index.css`
 
+### Blocked Host Error
+If you see "This host is not allowed", the Vite config already allows all hosts via `allowedHosts: ['all']`
+
 ## 📚 Additional Resources
 
 - [Vite Documentation](https://vitejs.dev/)
@@ -352,17 +288,6 @@ yarn install
 - [Tailwind CSS Docs](https://tailwindcss.com/docs)
 - [Shadcn UI Components](https://ui.shadcn.com/)
 - [Lucide Icons](https://lucide.dev/)
-
-## 🚀 Future Enhancements
-
-Potential features to add:
-- [ ] Dark/Light theme toggle
-- [ ] Blog section with markdown support
-- [ ] Contact form with email service
-- [ ] Project filtering by technology
-- [ ] Certifications section (currently commented out)
-- [ ] Resume download button
-- [ ] Animated skill progress bars
 
 ---
 
