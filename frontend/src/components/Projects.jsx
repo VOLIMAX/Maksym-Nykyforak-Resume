@@ -14,23 +14,26 @@ const Projects = ({ data }) => {
           </h2>
           <div className="h-1 w-24 bg-theme-500 mx-auto rounded-full"></div>
           <p className="text-gray-400 mt-4 max-w-2xl mx-auto">
-            Large-scale systems I've contributed to at Arcadis IBI Group
+            Large-scale systems and healthcare platforms I've contributed to
           </p>
         </div>
 
         {/* Projects Grid */}
-        <div className="max-w-6xl mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="max-w-6xl mx-auto grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {data.map((project, index) => (
             <Card 
               key={index}
               className="bg-[#1a1a1a] border-theme-500/20 p-6 hover:border-theme-500 transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-theme-500/20 group cursor-pointer"
+              onClick={() => project.link && window.open(project.link, '_blank')}
             >
               {/* Icon */}
               <div className="mb-4 relative">
                 <div className="w-14 h-14 bg-theme-500/10 rounded-lg flex items-center justify-center group-hover:bg-theme-500/20 transition-colors">
                   <Folder className="w-8 h-8 text-theme-500" />
                 </div>
-                <ExternalLink className="w-5 h-5 text-theme-500 absolute top-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity" />
+                {project.link && (
+                  <ExternalLink className="w-5 h-5 text-theme-500 absolute top-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity" />
+                )}
               </div>
 
               {/* Project Name */}
