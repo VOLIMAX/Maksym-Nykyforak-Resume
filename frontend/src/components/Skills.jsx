@@ -29,7 +29,7 @@ const Skills = ({ data }) => {
                 {category.items.map((skill, idx) => (
                   <Badge 
                     key={idx}
-                    className="bg-theme-500/10 text-theme-400 border border-theme-500/30 hover:bg-theme-500 hover:text-white transition-all duration-300 cursor-default px-3 py-1"
+                    className="bg-theme-500/10 text-gray-200 border border-theme-500/30 hover:bg-theme-500 hover:text-white transition-all duration-300 cursor-default px-3 py-1"
                   >
                     {skill}
                   </Badge>
