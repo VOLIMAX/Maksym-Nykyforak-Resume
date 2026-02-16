@@ -12,8 +12,14 @@ export default defineConfig({
   },
   server: {
     port: 3000,
-    host: true,
+    host: '0.0.0.0',
     strictPort: false,
+    allowedHosts: [
+      'maksym-dev.cluster-3.preview.emergentcf.cloud',
+      'localhost',
+      '.emergentcf.cloud',
+      '.emergentagent.com',
+    ],
     hmr: {
       clientPort: 443,
       protocol: 'wss',
