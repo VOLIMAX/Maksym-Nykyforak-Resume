@@ -62,8 +62,8 @@ const Hero = ({ data }) => {
           {/* Right: Photo */}
           <div className="md:order-2 order-1 flex justify-center">
             <div className="relative group">
-              {/* Glowing border effect */}
-              <div className="absolute -inset-1 bg-gradient-to-r from-theme-500 to-theme-600 rounded-2xl blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-pulse"></div>
+              {/* Static border effect */}
+              <div className="absolute -inset-1 bg-gradient-to-r from-theme-500 to-theme-600 rounded-2xl blur opacity-75 group-hover:opacity-100 transition duration-300"></div>
               
               <div className="relative">
                 <img 
