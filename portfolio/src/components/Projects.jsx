@@ -61,7 +61,7 @@ const Projects = ({ data }) => {
                 {project.techStack.map((tech, idx) => (
                   <Badge 
                     key={idx}
-                    className="bg-theme-500/10 text-theme-500 border border-theme-500/30 hover:bg-theme-500 hover:text-white transition-all duration-300 text-xs"
+                    className="bg-theme-500/10 text-theme-400 border border-theme-500/30 hover:bg-theme-500 hover:text-white transition-all duration-300 text-xs"
                   >
                     {tech}
                   </Badge>
