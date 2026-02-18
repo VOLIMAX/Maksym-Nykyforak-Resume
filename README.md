@@ -289,8 +289,3 @@ If you see "This host is not allowed", the Vite config already allows all hosts 
 - [Shadcn UI Components](https://ui.shadcn.com/)
 - [Lucide Icons](https://lucide.dev/)
 
----
-
-Built with ❤️ using **React**, **Vite**, and **Tailwind CSS**
-
-⚡ Powered by Vite for lightning-fast development
