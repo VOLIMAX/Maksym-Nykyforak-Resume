@@ -25,7 +25,7 @@ export const portfolioData = {
     categories: [
       {
         name: "Backend",
-        items: [".NET Core", "ASP.NET", "Entity Framework", "REST APIs", "gRPC", "SignalR", "OWASP 10", "Azure Service Bus"]
+        items: [".NET Core", "ASP.NET", "Entity Framework", "REST APIs", "gRPC", "SignalR", "OWASP 10", "Azure Service Bus", "RabbitMQ", "MassTransit"]
       },
       {
         name: "Frontend",
