@@ -31,7 +31,7 @@ const Experience = ({ data }) => {
                   <div>
                     <div className="flex items-center gap-2 mb-2">
                       <Building2 className="w-5 h-5 text-theme-500" />
-                      <h3 className="text-2xl font-bold text-white group-hover:text-theme-500 transition-colors">
+                      <h3 className="text-2xl font-bold text-white transition-colors">
                         {job.company}
                       </h3>
                     </div>
