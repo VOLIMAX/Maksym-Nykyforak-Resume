@@ -17,20 +17,20 @@ const Education = ({ data }) => {
         {/* Education Card */}
         <div className="max-w-3xl mx-auto">
           <Card className="bg-[#1a1a1a] border-theme-500/20 p-8 hover:border-theme-500/50 transition-all duration-300 hover:shadow-lg hover:shadow-theme-500/10 group">
-            <div className="flex items-start gap-6">
-              <div className="p-4 bg-theme-500/10 rounded-xl group-hover:bg-theme-500/20 transition-colors">
-                <GraduationCap className="w-10 h-10 text-theme-500" />
-              </div>
-              <div className="flex-1">
-                <h3 className="text-2xl font-bold text-white mb-2 transition-colors">
-                  {data.degree}
-                </h3>
-                <p className="text-lg text-gray-300 mb-3">{data.institution}</p>
-                <div className="flex items-center gap-2 text-theme-500">
+            <div className="mb-6">
+              <div className="flex flex-wrap items-start justify-between gap-4 mb-2">
+                <div className="flex items-center gap-2">
+                  <GraduationCap className="w-5 h-5 text-theme-500" />
+                  <h3 className="text-2xl font-bold text-white transition-colors">
+                    {data.degree}
+                  </h3>
+                </div>
+                <div className="flex items-center gap-2 text-gray-400">
                   <Calendar className="w-4 h-4" />
                   <span className="text-sm">{data.period}</span>
                 </div>
               </div>
+              <p className="text-lg text-gray-300">{data.institution}</p>
             </div>
           </Card>
         </div>
