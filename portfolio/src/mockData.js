@@ -110,7 +110,7 @@ export const portfolioData = {
         "Integrated real-time device data with third-party APIs",
         "Built responsive UI components for traffic visualization"
       ],
-      techStack: ["Angular", ".NET Core", "SQL Server", "Google Maps API", "Microservices"],
+      techStack: ["Angular", "AngularJS", ".NET Core", "SQL Server", "Google Maps API", "Microservices"],
       link: null
     },
     {
@@ -121,7 +121,7 @@ export const portfolioData = {
         "Implemented device-event association automation",
         "Created modular backend components following SOLID principles"
       ],
-      techStack: ["React", ".NET Core", "PostgreSQL"],
+      techStack: ["React", "AngularJS", ".NET Core", "PostgreSQL", "AWS", "Microservices"],
       link: null
     },
     {
@@ -132,7 +132,7 @@ export const portfolioData = {
         "Enhanced system maintainability and performance",
         "Supported complex distributed architecture"
       ],
-      techStack: [".NET Core", "Microservices", "Angular"],
+      techStack: [".NET Core", "Microservices", "Angular", "MassTransit", "RabbitMQ"],
       link: null
     },
     {
