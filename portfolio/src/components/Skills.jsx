@@ -22,7 +22,7 @@ const Skills = ({ data }) => {
               className="bg-[#1a1a1a] border-theme-500/20 p-6 hover:border-theme-500/50 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-theme-500/10 group"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
-              <h3 className="text-xl font-semibold text-theme-500 mb-4 group-hover:text-theme-400 transition-colors">
+              <h3 className="text-xl font-semibold text-white mb-4 transition-colors">
                 {category.name}
               </h3>
               <div className="flex flex-wrap gap-2">
