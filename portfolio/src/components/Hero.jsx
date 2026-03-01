@@ -27,7 +27,7 @@ const Hero = ({ data }) => {
                 <MapPin className="w-4 h-4" />
                 <span className="text-sm tracking-wide">{data.location}</span>
               </div>
-              <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-tight">
+              <h1 className="text-5xl md:text-7xl font-bold text-white leading-tight">
                 {data.fullName}
               </h1>
               <div className="h-1 w-24 bg-gradient-to-r from-theme-500 to-theme-600 rounded-full"></div>
