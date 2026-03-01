@@ -83,7 +83,7 @@ const Header = () => {
 
         {/* Mobile Navigation */}
         {isMobileMenuOpen && (
-          <nav className="lg:hidden py-6 border-t border-theme-500/20">
+          <nav className="lg:hidden py-6 border-t border-theme-500/20 bg-[#0a0a0a]/95 backdrop-blur-lg">
             <div className="flex flex-col gap-4">
               {navItems.map((item) => (
                 <button

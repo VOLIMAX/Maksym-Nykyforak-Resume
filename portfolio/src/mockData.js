@@ -25,7 +25,7 @@ export const portfolioData = {
     categories: [
       {
         name: "Backend",
-        items: [".NET Core", "ASP.NET", "Entity Framework", "REST APIs", "gRPC", "SignalR", "OWASP 10", "Azure Service Bus"]
+        items: [".NET Core", "ASP.NET", "Entity Framework", "REST APIs", "gRPC", "SignalR", "OWASP 10", "Azure Service Bus", "RabbitMQ", "MassTransit"]
       },
       {
         name: "Frontend",
@@ -41,11 +41,15 @@ export const portfolioData = {
       },
       {
         name: "DevOps & Tools",
-        items: ["Azure DevOps", "Git", "GitHub", "CI/CD", "YAML", "WebPack", "Vite"]
+        items: ["Azure DevOps", "Git", "GitHub", "GitHub Pages", "CI/CD", "YAML", "WebPack", "Vite"]
       },
       {
         name: "Testing",
         items: ["SpecFlow", "Unit Testing", "Test-Driven Development", "NUnit", "Moq", "NSubstitute", "AutoFixture", "FluentAssertions"]
+      },
+      {
+        name: "AI",
+        items: ["ChatGPT", "Claude", "GitHub Copilot", "Emergent", "Lovable"]
       },
       {
         name: "Principles",
@@ -69,7 +73,7 @@ export const portfolioData = {
         "Developed modular, responsive UI components using React; maintained AngularJS and Angular codebases.",
         "Supported and debugged complex distributed systems for large-scale transportation platforms."
       ],
-      techStack: ["C#", ".NET Core", "React", "Angular", "Azure", "Microservices", "Google Maps API"]
+      techStack: ["C#", ".NET Core", "React", "Angular", "Microservices", "Google Maps API"]
     },
     {
       company: "SoftServe",
@@ -106,7 +110,7 @@ export const portfolioData = {
         "Integrated real-time device data with third-party APIs",
         "Built responsive UI components for traffic visualization"
       ],
-      techStack: ["Angular", ".NET Core", "SQL Server", "Google Maps API", "Microservices"],
+      techStack: ["Angular", "AngularJS", ".NET Core", "SQL Server", "Google Maps API", "Microservices"],
       link: null
     },
     {
@@ -117,7 +121,7 @@ export const portfolioData = {
         "Implemented device-event association automation",
         "Created modular backend components following SOLID principles"
       ],
-      techStack: ["React", ".NET Core", "PostgreSQL"],
+      techStack: ["React", "AngularJS", ".NET Core", "PostgreSQL", "AWS", "Microservices"],
       link: null
     },
     {
@@ -128,7 +132,7 @@ export const portfolioData = {
         "Enhanced system maintainability and performance",
         "Supported complex distributed architecture"
       ],
-      techStack: [".NET Core", "Microservices", "Angular"],
+      techStack: [".NET Core", "Microservices", "Angular", "MassTransit", "RabbitMQ"],
       link: null
     },
     {

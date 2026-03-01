@@ -37,7 +37,7 @@ const Projects = ({ data }) => {
               </div>
 
               {/* Project Name */}
-              <h3 className="text-xl font-bold text-white mb-3 group-hover:text-theme-500 transition-colors">
+              <h3 className="text-xl font-bold text-white mb-3 transition-colors">
                 {project.name}
               </h3>
 
