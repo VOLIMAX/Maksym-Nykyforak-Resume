@@ -41,11 +41,15 @@ export const portfolioData = {
       },
       {
         name: "DevOps & Tools",
-        items: ["Azure DevOps", "Git", "GitHub", "CI/CD", "YAML", "WebPack", "Vite"]
+        items: ["Azure DevOps", "Git", "GitHub", "GitHub Pages", "CI/CD", "YAML", "WebPack", "Vite"]
       },
       {
         name: "Testing",
         items: ["SpecFlow", "Unit Testing", "Test-Driven Development", "NUnit", "Moq", "NSubstitute", "AutoFixture", "FluentAssertions"]
+      },
+      {
+        name: "AI",
+        items: ["ChatGPT", "Claude", "GitHub Copilot", "Emergent", "Lovable"]
       },
       {
         name: "Principles",
