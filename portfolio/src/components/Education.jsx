@@ -22,7 +22,7 @@ const Education = ({ data }) => {
                 <GraduationCap className="w-10 h-10 text-theme-500" />
               </div>
               <div className="flex-1">
-                <h3 className="text-2xl font-bold text-white mb-2 group-hover:text-theme-500 transition-colors">
+                <h3 className="text-2xl font-bold text-white mb-2 transition-colors">
                   {data.degree}
                 </h3>
                 <p className="text-lg text-gray-300 mb-3">{data.institution}</p>
