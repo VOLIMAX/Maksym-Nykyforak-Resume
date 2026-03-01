@@ -33,26 +33,26 @@ const Hero = ({ data }) => {
               <div className="h-1 w-24 bg-gradient-to-r from-theme-500 to-theme-600 rounded-full"></div>
             </div>
             
-            <h2 className="text-xl sm:text-2xl md:text-3xl text-theme-500 font-semibold">
+            <h2 className="text-2xl md:text-3xl text-theme-500 font-semibold">
               {data.title}
             </h2>
             
-            <p className="text-base sm:text-lg text-gray-300 leading-relaxed max-w-xl">
+            <p className="text-lg text-gray-300 leading-relaxed max-w-xl">
               {data.tagline}
             </p>
 
             <div className="flex flex-wrap gap-4 pt-4">
               <Button 
                 onClick={() => scrollToSection('contact')}
-                className="bg-theme-500 hover:bg-theme-600 text-white font-semibold px-6 sm:px-8 py-5 sm:py-6 text-base sm:text-lg rounded-lg transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-theme-500/50 group"
+                className="bg-theme-500 hover:bg-theme-600 text-white font-semibold px-8 py-6 text-lg rounded-lg transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-theme-500/50 group"
               >
                 Get In Touch
-                <ArrowRight className="ml-2 w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-1 transition-transform" />
+                <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Button>
               <Button 
                 onClick={() => scrollToSection('projects')}
                 variant="outline"
-                className="border-2 border-theme-500 text-theme-500 hover:bg-theme-500 hover:text-white font-semibold px-6 sm:px-8 py-5 sm:py-6 text-base sm:text-lg rounded-lg transition-all duration-300 hover:scale-105"
+                className="border-2 border-theme-500 text-theme-500 hover:bg-theme-500 hover:text-white font-semibold px-8 py-6 text-lg rounded-lg transition-all duration-300 hover:scale-105"
               >
                 View Projects
               </Button>
