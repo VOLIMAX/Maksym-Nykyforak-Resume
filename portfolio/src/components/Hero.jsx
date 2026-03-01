@@ -21,7 +21,7 @@ const Hero = ({ data }) => {
       <div className="container mx-auto px-6 py-20 relative z-10">
         <div className="grid md:grid-cols-2 gap-16 md:gap-12 items-center">
           {/* Left: Text Content */}
-          <div className="space-y-6 md:order-1 order-2">
+          <div className="space-y-6 order-1">
             <div className="space-y-2">
               <div className="flex items-center gap-2 text-theme-500">
                 <MapPin className="w-4 h-4" />
