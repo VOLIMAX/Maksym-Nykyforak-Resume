@@ -73,7 +73,7 @@ export const portfolioData = {
         "Developed modular, responsive UI components using React; maintained AngularJS and Angular codebases.",
         "Supported and debugged complex distributed systems for large-scale transportation platforms."
       ],
-      techStack: ["C#", ".NET Core", "React", "Angular", "Azure", "Microservices", "Google Maps API"]
+      techStack: ["C#", ".NET Core", "React", "Angular", "Microservices", "Google Maps API"]
     },
     {
       company: "SoftServe",
