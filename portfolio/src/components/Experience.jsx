@@ -35,7 +35,7 @@ const Experience = ({ data }) => {
                         {job.company}
                       </h3>
                     </div>
-                    <h4 className="text-xl text-theme-500 font-semibold">{job.role}</h4>
+                    <h4 className="text-xl text-white font-semibold">{job.role}</h4>
                   </div>
                   <div className="flex items-center gap-2 text-gray-400">
                     <Calendar className="w-4 h-4" />
